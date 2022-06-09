@@ -25,3 +25,10 @@
 > Пример функционального тестирования на ожидание исключений 
 > (expected exceptions)
 
+---
+
+#### Команды
+> $ pytest  
+> $ pytest -m <MARKEXP> --tb=no  
+> $ pytest -v -m <MARKEXP>  
+
