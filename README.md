@@ -40,12 +40,17 @@
 > 2) фикстура принимает объект для анализа контекста запрашивающей тестовой функции, класса или модуля  
 Пример параметрического тестирования (parametrized testing)
 > 3) в модуле test_order_fixtures.py приведен пример порядка инициализации фикстур в зависимости от параметра окружения scope  
+
+#### exam7
+
+> Рассматрен пример параметризации фикстур с помощью параметра params в объявлении фикстуры
+
 ---
 
 #### Наиболее употребимые команды
 > $ pytest  
 > $ pytest -m <MARKEXP> --tb=no  
 > $ pytest -v -m <MARKEXP>  
-> $ pytest -qq --tb=short test_<MODULE>.py
-> $ pytest -q -s --tb=short test_<MODULE>.py
+> $ pytest -qq --tb=short test_<MODULE>.py  
+> $ pytest -q -s --tb=short test_<MODULE>.py  
 
